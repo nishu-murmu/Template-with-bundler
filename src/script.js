@@ -7,13 +7,12 @@ import gsap from 'gsap'
 
 // Global Variables
 let scene, camera, renderer, clock, gui, stats, controls
-let canvas, sizes, elapsedTime,
+let canvas, sizes, elapsedTime
 let geometry, material, cube
 let pointLight, ambientLight
 
 // initializing the third party libraries
 canvas = document.querySelector('.canvas')
-loader_text = document.querySelector('.loader-text')
 clock = new THREE.Clock()
 gui = new GUI({ width: 400 })
 stats = new Stats()
